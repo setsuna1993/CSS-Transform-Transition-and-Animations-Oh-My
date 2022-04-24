@@ -1,1 +1,7 @@
 
+button:hover {
+    color: ghostwhite;
+    transition: 2s;
+    transition-fill-mode: both;
+}
+

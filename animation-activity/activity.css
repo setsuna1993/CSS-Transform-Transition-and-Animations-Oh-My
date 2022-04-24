@@ -28,16 +28,16 @@ nav {
 }
 
 @keyframes top {
-  from {}
-  to {}
+  from {background-color: rebeccapurple; transform: matrix(1,0,0,1,0,0)}
+  to {background-color: ghostwhite; transform: matrix(1,.88,-.88,1,0,35)}
 }
 
 @keyframes middle {
-  from {}
-  to {}
+  from {opacity: 1}
+  to {opacity: 0}
 }
 
 @keyframes bottom {
-  from {}
-  to {}
+  from {background-color: rebeccapurple; transform: matrix(1,0,0,1,0,0)}
+  to {background-color: ghostwhite; transform: matrix(1,-.88,.88,1,0,-35)}
 }
